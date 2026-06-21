@@ -44,7 +44,7 @@ li.menu-item{
 li.menu-item a{
     color: white;
     font-weight: bold;
-    padding: 10px;
+    padding: 20px 15px;
 }
 .menu-item ul.sub-menu{
     background: white;
@@ -128,4 +128,24 @@ body.single-product #primary{
 .site-branding>a{
     position: absolute;
     max-width: 220px;
+}
+
+@media screen and (max-width: 800px){
+    #secondary,
+    #primary{
+        width: calc( 100% );
+    }
+
+    .menu-item.focus ul.sub-menu,
+    .menu-item:hover ul.sub-menu{
+        left: 0px !important;
+        /* width: 100%; */
+        /* max-width: 100%; */
+        position: absolute;
+        margin-left: 0;
+    }
+
+    button.menu-toggle{
+        display: none;
+    }
 }
