@@ -16,7 +16,7 @@ body{
 }
 
 .site-title{
-    /*background-image: url('http://localhost/clients/rudolf/nycsl.com/wp-content/uploads/2025/04/asdf.jpg');*/
+    background-image: url('https://nycsl.com/wp-content/uploads/2025/04/asdf.jpg');
     margin: 0;
     padding: 80px 0;
     background-size: cover;
@@ -124,3 +124,8 @@ body.single-product #primary{
     display: none;
 }
 
+
+.site-branding>a{
+    position: absolute;
+    max-width: 220px;
+}
